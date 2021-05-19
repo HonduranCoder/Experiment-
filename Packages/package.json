@@ -1,0 +1,21 @@
+{
+  "name": "Experiments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "env-cmd node ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/events-api": "^3.0.0",
+    "@slack/web-api": "^6.2.3",
+    "dotenv": "^9.0.2",
+    "env-cmd": "^10.1.0"
+  },
+  "devDependencies": {
+    "ngrok": "^4.0.1"
+  }
+}
